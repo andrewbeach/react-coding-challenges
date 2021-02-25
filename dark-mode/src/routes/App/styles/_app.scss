@@ -1,11 +1,12 @@
 .app {
-  padding: 10%;
-  max-width: 1000px;
+  height: 100vh;
+  width: 100vw;
+  padding: 20%;
   justify-content: center;
   display: flex;
   flex-direction: column;
   margin: auto;
-  box-sizing: content-box;
+  box-sizing: border-box;
 
   &__dark-mode-btn {
     border: 0;
